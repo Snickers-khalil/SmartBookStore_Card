@@ -1,0 +1,48 @@
+name: smart_book_store
+description: A new Flutter project
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  logger:
+  get_storage:
+  google_fonts: ^4.0.3
+  get: 4.6.5
+  sqflite: ^2.0.3+1
+  simple_animations: ^1.3.3
+  path_provider: ^2.0.11
+  iconsax: ^0.0.8
+  animate_do: ^2.0.0
+  pattern_formatter: ^2.0.0
+  align_positioned: ^3.0.0
+  flutter_advanced_drawer: ^1.2.3+1
+  bouncing_widget: ^2.0.0
+  shared_preferences: ^2.0.15
+  badges: ^3.0.2
+#  provider: ^6.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+#    - assets/images/avatar
+    - assets/images/
+#    - assets/screenshot/
